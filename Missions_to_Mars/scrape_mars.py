@@ -14,7 +14,7 @@ def scrape_all():
     news_title, news_paragraph = mars_news(browser) 
 
     data = {
-     "new_title": news_title,
+     "news_title": news_title,
      "news_paragraph": news_paragraph,
      "featured_image": featured_image(browser),
      "facts": mars_facts(),
